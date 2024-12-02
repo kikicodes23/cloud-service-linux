@@ -22,7 +22,7 @@ export function Menu({ currentFilter, setCurrentFilter }) {
             }`}
             onClick={filterAll}
           >
-            All
+            All [to update]
           </button>
         </li>
 

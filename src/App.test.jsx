@@ -21,7 +21,7 @@ describe("Basic test examples", async () => {
     const a = 1;
     const b = 1;
 
-    expect(a + b).toBe(2);
+    expect(a + b).toBe(3);
   });
 
   it("Should return 4", async () => {

@@ -80,4 +80,6 @@ jobs:
             docker compose up -d --build || true
 
             echo "Cleaning up..."
-            rm -r ${{secrets.DEPLOYMENT_FOLDER}}
+            rm -r ../${{secrets.DEPLOYMENT_FOLDER}}
+
+            

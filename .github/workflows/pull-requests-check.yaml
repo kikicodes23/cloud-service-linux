@@ -3,7 +3,7 @@ name: CI Pull Requests Check
 on:
   pull_request:
     types:
-      [opened, reopened]
+      [opened, reopened, synchronize]
 
 jobs:
   linter:

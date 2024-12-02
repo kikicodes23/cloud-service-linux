@@ -81,5 +81,3 @@ jobs:
 
             echo "Cleaning up..."
             rm -r ../${{secrets.DEPLOYMENT_FOLDER}}
-
-            

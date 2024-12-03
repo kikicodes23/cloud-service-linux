@@ -8,7 +8,7 @@ describe("Renders main page correctly", async () => {
   it("Should render the page correctly", async () => {
     // Setup
     render(<App />);
-    const title = await screen.queryByText("#todo");
+    const title = await screen.queryByText("#todu");
 
     // Expectations
     expect(title).toBeInTheDocument();
